@@ -1,0 +1,112 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Button_Change_Trigger" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="848.8,782.4" sap2010:WorkflowViewState.IdRef="Button_Change_Trigger_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Button_Change_Trigger" sap:VirtualizedContainerService.HintSize="529.6,717.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:TriggerScope DisplayName="Trigger Scope" sap:VirtualizedContainerService.HintSize="467.2,628.8" sap2010:WorkflowViewState.IdRef="TriggerScope_1" SchedulingMode="Sequential">
+      <ui:TriggerScope.Action>
+        <ActivityAction x:TypeArguments="ui:EventInfoTriggerArgs">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="ui:EventInfoTriggerArgs" Name="args" />
+          </ActivityAction.Argument>
+          <Sequence sap:VirtualizedContainerService.HintSize="416,197.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="353.6,108.8" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;SUBMITTED&quot;]" />
+          </Sequence>
+        </ActivityAction>
+      </ui:TriggerScope.Action>
+      <ui:TriggerScope.Triggers>
+        <scg:List x:TypeArguments="Activity" Capacity="4">
+          <ui:ClickImageTriggerV2 ClippingRegion="{x:Null}" BlockEvent="False" DisplayName="Click Image Trigger 'chrome.exe Rpa'" Enabled="True" sap:VirtualizedContainerService.HintSize="432,200.8" sap2010:WorkflowViewState.IdRef="ClickImageTriggerV2_1" KeyModifiers="None" MouseButton="BTN_LEFT" SchedulingMode="Sequential" Selector="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" TriggerId="c616af7f-1b33-4956-8c80-1709bd974a8b" TriggerMode="TriggerDown">
+            <ui:ClickImageTriggerV2.Image>
+              <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" InitialScalingFactor="1.25" Profile="Basic" TargetImageBase64="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" />
+            </ui:ClickImageTriggerV2.Image>
+          </ui:ClickImageTriggerV2>
+        </scg:List>
+      </ui:TriggerScope.Triggers>
+    </ui:TriggerScope>
+  </Sequence>
+</Activity>
